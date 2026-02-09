@@ -1,7 +1,7 @@
 {
-  "name": "mindshape/mindshape-cookie-consent",
+  "name": "mohsinqk/mindshape-cookie-consent",
   "type": "typo3-cms-extension",
-  "description": "This extension provides functionality to create  a customizable cookie consent for your website. It is developed for flexibility to be customized in accordance to your data security guidelines.",
+  "description": "This extension is a fork of the original mindshape_cookie_consent extension. It provides functionality to create a customizable cookie consent for your website. It is developed for flexibility to be customized in accordance to your data security guidelines.",
   "license": [
     "GPL-2.0-or-later"
   ],
@@ -21,8 +21,7 @@
     "php": ">=8.1 <8.5",
     "ext-json": "*",
     "ext-pdo": "*",
-    "typo3/cms-core": "^12.4 || ^13.4",
-    "georgringer/numbered-pagination": "^2.1"
+    "typo3/cms-core": "^14.1"
   },
   "autoload": {
     "psr-4": {
